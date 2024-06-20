@@ -4,7 +4,7 @@ BASE_DIR=/work/users/${USER:0:1}/${USER:1:1}/$USER && \
 sbatch \
     --mail-type=FAIL \
     --mail-user=taylormo@unc.edu \
-    --job-name=process-poj-clone-detection-data \
+    --job-name=poj-clone-detection-data \
     -o "/work/users/${USER:0:1}/${USER:1:1}/${USER}/OSCAR/slurm/logs/%x_%j_%N.log" \
     --nodes=1 \
     --ntasks=1 \
